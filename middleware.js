@@ -1,4 +1,3 @@
-import { X509Certificate } from 'crypto';
 import client from 'prom-client';
 
 const requestCounter = new client.Counter({
